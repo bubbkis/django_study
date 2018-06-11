@@ -1,0 +1,8 @@
+[run]
+source = .
+omit = */tests/*
+plugins = django_coverage_plugin
+
+[report]
+show_missing = True
+skip_covered = True
